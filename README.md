@@ -32,6 +32,8 @@ Expose an API endpoint that accepts a list of sold Items and creates Payouts for
 - Use Typescript/Node.JS or PHP. Using a framework such as Nest.JS or Symfony is encouraged.
 
 ## My Work
+I completed the entire task using Laravel, MySQL and Docker.
+
 Endpoint = http://localhost/api/v1/payout
 
 ### Example Request Body:
@@ -84,6 +86,7 @@ Endpoint = http://localhost/api/v1/payout
 ```
 
 ## Future Improvements
+- Saving of multiple records can be done in one query to support large amounts of data
 - Logging can be improved to be more detailed on which items caused issues
 - More error handling with explicit errors
 - `Exercise/SoldItems::convertToPayouts()`, breaks SRP, should be refactored to make it easier to read/modify
