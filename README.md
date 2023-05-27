@@ -1,8 +1,8 @@
-# PHP API Code Task (4hr time limit)
+# API Code Task (4hr time limit)
 
 ## Contents
 1. [Task Description](#task-description)
-2. [My work](#my-work)
+2. [My solution](#my-solution)
 3. [Future Improvements](#future-improvements)
 
 ## Task Description
@@ -31,7 +31,7 @@ Expose an API endpoint that accepts a list of sold Items and creates Payouts for
 - Every Payout should be linked with at least one Item, so that we know exactly what Items have been paid out with each transaction
 - Use Typescript/Node.JS or PHP. Using a framework such as Nest.JS or Symfony is encouraged.
 
-## My Work
+## My Solution
 I completed the entire task using Laravel, MySQL and Docker.
 
 Endpoint = http://localhost/api/v1/payout
