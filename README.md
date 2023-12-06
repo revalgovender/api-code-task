@@ -13,7 +13,7 @@ Item
 - Price currency
 - Price amount
 
-Seller reference
+Payout
 - Payout
 - Seller reference
 - Amount
