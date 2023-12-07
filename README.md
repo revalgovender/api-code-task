@@ -14,7 +14,6 @@ Item
 - Price amount
 
 Payout
-- Payout
 - Seller reference
 - Amount
 - Currency
