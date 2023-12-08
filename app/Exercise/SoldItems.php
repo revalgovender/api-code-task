@@ -10,7 +10,7 @@ class SoldItems
 
     public function __construct()
     {
-        $this->max_payout_limit = env('MAX_PAYOUT_LIMIT');;
+        $this->max_payout_limit = env('MAX_PAYOUT_LIMIT');
     }
 
     public function convertToPayouts(array $soldItems): array
